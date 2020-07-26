@@ -1,0 +1,32 @@
+{
+  "name": "challenge.blackstone",
+  "version": "1.0.0",
+  "description": "Challenge Todo list",
+  "main": "server.js",
+  "scripts": {
+    "start": "env NODE_ENV=production node server",
+    "dev": "env NODE_ENV=development nodemon server",
+    "test": "env NODE_ENV=test jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Luis Nunez",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
