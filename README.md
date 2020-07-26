@@ -36,3 +36,5 @@ The following are the tools used for the Web Server:
 
 1) [Node.js](https://nodejs.org/en/) - v12.16.3
 2) Node Dependencies - See package.json
+3) If you need to change the config values for dev use `config.env` file
+4) If you need to change the config values for dev test `configTest.env` file
