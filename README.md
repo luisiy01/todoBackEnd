@@ -8,7 +8,7 @@ Authored by Luis Fernando Nuñez
 
 ## Other Resources:
 
-* See [GITHUB](https://github.com) for next versions
+* See [Luis - todoBackEnd](https://github.com/luisiy01/todoBackEnd) for next versions
 
 ## Project Setup
 
